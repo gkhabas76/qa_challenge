@@ -18,19 +18,15 @@ Your task is to write some end-to-end test for this simple [Personal Library App
 
 For these tests please keep in mind that logins&registrations are only saved in the browser's localStorage and are not persisted in an external server.
 
-## How we're evaluating the result
-Prioritised from most important to least important, here are our evaluation criteria:
-
 ## Bonus Round (not required, but nice-to-have)
 * Usage of code quality tools such as eslint, prettier, flow or typescript
 * Integration of your tests into a CI pipeline
 * Screenshot diffing
 * Surprise us…
 
+## How we're evaluating the result
+Prioritised from most important to least important, here are our evaluation criteria:
 1. **Acceptance Criteria**: Have all acceptance criteria been fulfilled correctly?
 1. **Code Quality**: Is the code that you've written clean, well-structured and easy to understand?
 1. **Documentation**: Did you document how to run your tests well? Is your written communication clear and easy-to-understand?
 1. **The extra mile**: Everything you did on top of the acceptance criteria. See [Bonus Round](#bonus-round)
-
-
-
