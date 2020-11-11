@@ -28,6 +28,13 @@ For these tests please keep in mind that logins&registrations are only saved in 
 * Screenshot diffing
 * Surprise us…
 
+## Technical questions
+Please additionally answer the following questions in a markdown file called `Answers to technical questions.md`.
+
+1. How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
+1. What do you think is the most interesting trend in test automation?
+1. How would you approach adding automated testing to an existing (web) application with no existing E2E tests? Have you ever had to do this?
+
 ## How we're evaluating the result
 Prioritised from most important to least important, here are our evaluation criteria:
 1. **Acceptance Criteria**: Have all acceptance criteria been fulfilled correctly? 
