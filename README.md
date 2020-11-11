@@ -1,7 +1,11 @@
 # Talentspace Coding Challenge - QA
 
 ## The Goal
-Your task is to write some end-to-end test for this simple [Personal Library App](https://ts-e2e-challenge.netlify.app/) 
+Your task is to write some end-to-end test with Cypress to demonstrate your test automation abilities. 
+
+## What you'll need
+1. The [Cypress Docs](https://docs.cypress.io)
+1. The URL to the app that should be tested: [Personal Library App](https://ts-e2e-challenge.netlify.app/) 
 
 ## The Process
 1. Fork this GitHub repo
@@ -26,7 +30,7 @@ For these tests please keep in mind that logins&registrations are only saved in 
 
 ## How we're evaluating the result
 Prioritised from most important to least important, here are our evaluation criteria:
-1. **Acceptance Criteria**: Have all acceptance criteria been fulfilled correctly?
+1. **Acceptance Criteria**: Have all acceptance criteria been fulfilled correctly? 
 1. **Code Quality**: Is the code that you've written clean, well-structured and easy to understand?
 1. **Documentation**: Did you document how to run your tests well? Is your written communication clear and easy-to-understand?
 1. **The extra mile**: Everything you did on top of the acceptance criteria. See [Bonus Round](#bonus-round-not-required-but-nice-to-have)
