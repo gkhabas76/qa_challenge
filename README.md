@@ -8,8 +8,8 @@ Your task is to write some end-to-end test with Cypress to demonstrate your test
 1. The URL to the app that should be tested: [Personal Library App](https://ts-e2e-challenge.netlify.app/) 
 
 ## The Process
-1. Fork this GitHub repo
-1. In your forked repo, set up a new Cypress environment
+1. Clone this GitHub repo
+1. In your cloned repo, set up a new Cypress environment
 1. Write the end-to-end tests fulfilling the [Acceptance Criteria](#acceptance-criteria) below
 1. Create a pull request from your fork into this original repository.
 1. In your pull request description, please document how to run the code you've written and how to verify the fulfilment of the acceptance criteria. Feel free to add additional thoughts, e.g. why you implemented a feature in a certain way, what were your learnings etc.
