@@ -8,12 +8,12 @@ Your task is to write some end-to-end test with Cypress to demonstrate your test
 1. The URL to the app that should be tested: [Personal Library App](https://ts-e2e-challenge.netlify.app/) 
 
 ## The Process
-1. Clone this GitHub repo
+1. Clone this GitHub repo - **forking is not possible due to limited rights**
 1. In your cloned repo, set up a new Cypress environment
 1. Write the end-to-end tests fulfilling the [Acceptance Criteria](#acceptance-criteria) below
-1. Create a pull request from your fork into this original repository.
-1. In your pull request description, please document how to run the code you've written and how to verify the fulfilment of the acceptance criteria. Feel free to add additional thoughts, e.g. why you implemented a feature in a certain way, what were your learnings etc.
-1. Mention @mduecker in the pull request description to let us know you're ready for review. Alternatively, send an email to markus@talentspace.io
+1. Push it to your own repo that you can then share with us - **you have no writing rights on this repo**
+1. In your repo please document how to run the code you've written and how to verify the fulfilment of the acceptance criteria. Feel free to add additional thoughts, e.g. why you implemented a feature in a certain way, what were your learnings etc.
+1. Let us know via Email that you've finished the task so we can schedule the Code Review session with you
 
 ## Acceptance Criteria
 1. Write a first end-to-end test which checks the registration flow for a new and valid user (start on initial page of the app and end on Dashboard)
