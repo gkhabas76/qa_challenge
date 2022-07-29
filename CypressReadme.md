@@ -23,3 +23,7 @@ This automated **_E2E_** test is checks the process of different **_Features_** 
 4. Select the browser of your choice and click on **_Start E2E Testing_** button.
 5. A new browser window will be open.
 6. Expand **_cypress\e2e\Talentspace_** folder and click on **_tests.cy.js_** file.
+
+#### Notes
+
+At the moment, the integrated CI/CD using GitHUB Actions does not work properly. As I didn't want to take more time in technical test, I didn't spend more time on fixing it.
