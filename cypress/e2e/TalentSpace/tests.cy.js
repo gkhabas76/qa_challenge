@@ -4,7 +4,7 @@ import RegisterUser from '../../PageObject/register';
 import Books from '../../PageObject/addBooks';
 import ValidateUser from '../../PageObject/userCheck';
 
-describe('Creates a new user account by generating usernames automatically', function () {
+describe('Test suites for Creating an account, adding books to reading lists and verifying existing username', function () {
   const register = new RegisterUser();
   const books = new Books();
   const user = new ValidateUser();
@@ -19,11 +19,12 @@ describe('Creates a new user account by generating usernames automatically', fun
   afterEach(() => {
     cy.saveLocalStorageCache();
   });
-  it('Creates a new user account', () => {
+  it('Creates a new user account by adding username automatically', () => {
     register.addUserName();
     register.addPassword();
     register.submit();
     cy.wait(2000);
+    //Verifies the Paragraph text after users successfully registers or logins in the applications.
     cy.get('p').contains(
       'Hey there! Welcome to your reading list. Get started by heading over to the Discover page to add books to your list.'
     );

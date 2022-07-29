@@ -10,12 +10,15 @@ class RegisterUser {
     const btnRegister = cy.get('.css-hf8lg3');
     btnRegister.click();
   }
+  //Adds username automatically by using the function randomNames
   addUserName(value) {
     const username = cy.get('#username');
     username.clear();
     username.type(randomNames(wordLength));
     return this;
   }
+  /*Adds password. The idea behind using same password for all the users is: 
+  Same password can be used by many users but all users can not have same username*/
   addPassword(value) {
     const password = cy.get('#password');
     password.clear();
@@ -29,7 +32,7 @@ class RegisterUser {
   logout() {
     cy.get('button').contains('Logout').click();
   }
-  //adding username manually
+  //method to add username manually
   users(value) {
     const username = cy.get('#username');
     username.clear();

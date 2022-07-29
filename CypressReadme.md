@@ -4,6 +4,8 @@
 
 This automated **_E2E_** test is checks the process of different **_Features_** such as Creating a user account, adding books to reading list and verifiying the existing users. The **_E2E_** test cases are written in **_JavaScript_** using **_Cypress_**
 
+Custom Cypress command such as clearLocalStorageCache, restoreLocalStorageCache and saveLocalStorageCache used in **_test.cy.js_** file can be found under **_cypress/support/command.js_**
+
 ### Installation and running the project
 
 ### Installation process of the Project
