@@ -6,6 +6,8 @@ This automated **_E2E_** test is checks the process of different **_Features_** 
 
 Custom Cypress command such as clearLocalStorageCache, restoreLocalStorageCache and saveLocalStorageCache used in **_test.cy.js_** file can be found under **_cypress/support/command.js_**
 
+**_PageObject_** folder contains the all the required classes, methods and function used to run tests.
+
 ### Installation and running the project
 
 ### Installation process of the Project
