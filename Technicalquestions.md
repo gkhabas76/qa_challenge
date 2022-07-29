@@ -1,6 +1,6 @@
 #### 1. How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 
---> I spend around 1 hour on the technical test. If I had more time or spend more time on the test, I would surely work on saving local storage session on every test run.
+--> I spend around 1 hour on the technical test. If I had more time or spend more time on the test, I would surely work on saving local storage session on every test run. And also properly integrate CI/CD using GitHub Actions.
 
 #### 2. What do you think is the most interesting trend in test automation?
 
