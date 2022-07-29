@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenge-qa",
+  "version": "1.0.0",
+  "description": "QA coding challenge for Talentspace",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkhabas76/qa_challenge.git"
+  },
+  "author": "Govinda Khabas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkhabas76/qa_challenge/issues"
+  },
+  "homepage": "https://github.com/gkhabas76/qa_challenge#readme",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  }
+}
