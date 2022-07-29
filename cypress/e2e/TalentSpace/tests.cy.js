@@ -34,7 +34,7 @@ describe('Creates a new user account by generating usernames automatically', fun
     books.logout();
   });
   it('Adds User manually', () => {
-    user.addsUser();
+    user.addUser();
   });
   it('Verifies if user already exists or not', () => {
     user.checkUser();

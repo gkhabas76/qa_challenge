@@ -5,7 +5,7 @@ import RegisterUser from './register';
 const user = new RegisterUser();
 
 class ValidateUser {
-  addsUser() {
+  addUser() {
     user.users();
     user.addPassword();
     user.submit();
